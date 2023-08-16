@@ -1522,7 +1522,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001521
-      electron-to-chromium: 1.4.492
+      electron-to-chromium: 1.4.493
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.10)
     dev: false
@@ -1597,6 +1597,11 @@ packages:
 
   /chalk@5.2.0:
     resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: false
+
+  /chalk@5.3.0:
+    resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: false
 
@@ -1889,7 +1894,7 @@ packages:
       '@drizzle-team/studio': 0.0.5
       '@esbuild-kit/esm-loader': 2.5.5
       camelcase: 7.0.1
-      chalk: 5.2.0
+      chalk: 5.3.0
       commander: 9.5.0
       esbuild: 0.18.20
       esbuild-register: 3.4.2(esbuild@0.18.20)
@@ -1967,8 +1972,8 @@ packages:
       '@libsql/client': 0.3.1
     dev: false
 
-  /electron-to-chromium@1.4.492:
-    resolution: {integrity: sha512-36K9b/6skMVwAIEsC7GiQ8I8N3soCALVSHqWHzNDtGemAcI9Xu8hP02cywWM0A794rTHm0b0zHPeLJHtgFVamQ==}
+  /electron-to-chromium@1.4.493:
+    resolution: {integrity: sha512-T1k9mhYPdjnmS4VAz4J1oKVn6/M6LxoqQEVtYRL0swJVj73bA2NzqF0HjwxGsW3zL3ir0oPmLfd7lyi/RYzreg==}
     dev: false
 
   /emoji-regex@9.2.2:
