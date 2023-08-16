@@ -5,6 +5,7 @@ import {
   sqliteTable,
   text
 } from "drizzle-orm/sqlite-core"
+import type { InferModel } from "drizzle-orm"
 
 export const transaction = sqliteTable("transaction", {
   id: integer("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
@@ -48,3 +49,9 @@ export const savingsGoal = sqliteTable("savingsGoal", {
   currentAmount: integer("currentAmount", { mode: "boolean" }).notNull(),
   targetDate: integer("targetDate").notNull()
 })
+
+export type Transaction = InferModel<typeof transaction>
+export type Budget = InferModel<typeof budget>
+export type Category = InferModel<typeof category>
+export type Bill = InferModel<typeof bill>
+export type SavingsGoal = InferModel<typeof savingsGoal>
